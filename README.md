@@ -78,5 +78,13 @@ xinhome.exe --settle-ms 1500 --hold-ms 200 --linger-ms 500
 - Mashing the trigger is safe: while a press is in flight, extra launches exit immediately.
 - If the virtual controller shows up under a third-party driver (XBCD, Inno, ...) instead of the stock Xbox one, change its driver in Device Manager, same as noted in [xinagg360](https://github.com/Maxsafer/xinagg360#things-to-keep-in-mind).
 
+## Related projects
+All of these share the same ViGEmBus + vgamepad base and were built around my AYANEO Slide.
+
+| Project | What it does |
+|---|---|
+| [xinagg360](https://github.com/Maxsafer/xinagg360) | Aggregates every connected XInput controller into one virtual Xbox 360 pad. Fixes old games that choke on modern controllers, and lets any pad drive one stable controller. |
+| [emuCenter](https://github.com/Maxsafer/emuCenter) | Emulator hub / game launcher built for handheld PCs like the AYANEO Slide. Has the xinagg360 virtual controller built in. |
+
 ## License
 [GPL-3.0](LICENSE), same as xinagg360. The vendored `vgamepad` keeps its own [MIT license](https://github.com/yannbouteiller/vgamepad/blob/master/LICENSE).
